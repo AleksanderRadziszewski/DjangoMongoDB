@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Data</title>
+</head>
+<body>
+<ul>
+{% for student in students %}
+    <li>created_at:{{student.created_at }}<br>
+    updated_at: {{student.updated_at }}<br>
+    name: {{ student.name }}<br>
+    age: {{student.age }}<br>
+    roll_number: {{student.roll_number }}
+    </li>
+{% endfor%}
+</ul>
+</body>
+</html

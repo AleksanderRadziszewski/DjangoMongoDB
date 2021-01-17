@@ -1,0 +1,4 @@
+mongoenv/
+.idea/
+db.sqlite3/
+__pycache__/
